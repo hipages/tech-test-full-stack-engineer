@@ -53,4 +53,4 @@ Please document your solution in the SOLUTION.md file.  This should explain why 
 
 **Please include instructions on how to run your app if it is not using the boilerplate provided.**
 
-Once completed, please compress your solution with zip or tar and email it to adamwoods@hipagesgroup.com.au.
+Once completed, please upload your solution to a public Github repo and email the link to **adamwoods@hipagesgroup.com.au.**
