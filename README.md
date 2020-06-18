@@ -1,6 +1,6 @@
 hipages Full Stack Engineer Tech Challenge
 ==========================================
-Welcome to the hipages Full Stack Engineer Tech Challenge!  The purpose of this challenge is to help us assess your technical skills.  We know that you have limited time to devote to this task and may not be able to provide the as complete solution as you would given more time, so we suggest you focus on the core requirements first, then any additional features if you have time left over.
+Welcome to the hipages Full Stack Engineer Tech Challenge!  The purpose of this challenge is to help us assess your technical skills.  We know that you have limited time to devote to this task and may not be able to provide the complete solution as you would given more time, so we suggest you focus on the core requirements first, then any additional features if you have time left over.
 
 ## The Task
 Your task is to create a lead management UI for a tradie.  This should be presented as a single page application (SPA) using a modern JS framework.
