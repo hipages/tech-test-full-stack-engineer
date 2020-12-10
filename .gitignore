@@ -3,6 +3,7 @@
 # dependencies
 /server/node_modules
 /ui/node_modules
+/ui/.eslintcache
 /.pnp
 .pnp.js
 

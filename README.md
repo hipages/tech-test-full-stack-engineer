@@ -32,8 +32,9 @@ As you can see in the screenshot, the lead cards follow a similar format and con
 * Contact email
 
 ### Notes
-* For the icons in the UI, you can use something like font-awesome or SVG icons, whatever you choose.
+* For the icons in the UI, you can use something like SVG icons or font-awesome, whatever you choose.
 * There are jobs already loaded into the database
+* Feel free to use your own styling solution: CSS-in-JS (styled-components, emotion, etc), CSS Modules, Tailwind, plain CSS or Sass.
 
 ## Getting Started
 We have provided a bit of boilerplate code that you can use to get started.  You are **not** required to use this boilerplate, so feel free to throw it all away and start fresh if you prefer.
