@@ -13,17 +13,18 @@ services:
     working_dir: /opt/ui
 
   server:
-    entrypoint: ["npm", "start"]
-    environment:
-      NODE_ENV: development
-    image: node:10.15-alpine
-    links:
-      - database:database
-    ports:
-      - "8080:8080"
+    build:
+      context: ./server
+      dockerfile: Dockerfile
     volumes:
-      - ./server:/opt/server
-    working_dir: /opt/server
+      - ./server/:/server/
+    command: uvicorn app.server:app --reload --workers 1 --host 0.0.0.0 --port 8000
+    env_file:
+      - ./server/.env
+    ports:
+      - 8000:8000
+    depends_on:
+      - database
   
   database:
     image: mysql:5.6
